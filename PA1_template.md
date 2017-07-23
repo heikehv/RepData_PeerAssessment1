@@ -6,13 +6,6 @@ First of all, make sure that you are in the right working directory / set your w
 
 ```r
 getwd()
-```
-
-```
-## [1] "/Users/heikehv/datasciencecoursera/datasciencecoursera/Reproducible_Research/RepData_PeerAssessment1"
-```
-
-```r
 setwd("~/datasciencecoursera/datasciencecoursera/Reproducible_Research/RepData_PeerAssessment1")
 ```
 and read in your file (it is presumed you downloaded it and saved it in your working directory)

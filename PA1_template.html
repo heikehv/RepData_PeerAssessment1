@@ -123,9 +123,8 @@ $(document).ready(function () {
 <div id="loading-and-preprocessing-the-data" class="section level2">
 <h2>Loading and preprocessing the data</h2>
 <p>First of all, make sure that you are in the right working directory / set your working directory.</p>
-<pre class="r"><code>getwd()</code></pre>
-<pre><code>## [1] &quot;/Users/heikehv/datasciencecoursera/datasciencecoursera/Reproducible_Research/RepData_PeerAssessment1&quot;</code></pre>
-<pre class="r"><code>setwd(&quot;~/datasciencecoursera/datasciencecoursera/Reproducible_Research/RepData_PeerAssessment1&quot;)</code></pre>
+<pre class="r"><code>getwd()
+setwd(&quot;~/datasciencecoursera/datasciencecoursera/Reproducible_Research/RepData_PeerAssessment1&quot;)</code></pre>
 <p>and read in your file (it is presumed you downloaded it and saved it in your working directory)</p>
 <pre class="r"><code>activity &lt;- read.csv(&quot;activity.csv&quot;, header=TRUE, sep=&quot;,&quot;)</code></pre>
 <p>check your data and change date format</p>

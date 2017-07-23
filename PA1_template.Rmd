@@ -8,7 +8,7 @@ output:
 
 ## Loading and preprocessing the data
 First of all, make sure that you are in the right working directory / set your working directory.
-```{r}
+```{r, results="hide"}
 getwd()
 setwd("~/datasciencecoursera/datasciencecoursera/Reproducible_Research/RepData_PeerAssessment1")
 ```
